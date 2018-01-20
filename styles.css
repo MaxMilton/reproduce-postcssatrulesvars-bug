@@ -1,7 +1,7 @@
 :root {
   --colour-one: red;
   --use-colour-two: true;
-  /* --use-colour-two: false; */
+  --use-colour-two: false; /* comment */
   --colour-two: green;
 }
 
