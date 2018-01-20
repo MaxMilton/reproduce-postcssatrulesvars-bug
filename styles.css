@@ -1,0 +1,14 @@
+:root {
+  --colour-one: red;
+  --use-colour-two: true;
+  /* --use-colour-two: false; */
+  --colour-two: green;
+}
+
+body {
+  color: var(--colour-one);
+
+  @if var(--use-colour-two) {
+    color: var(--colour-two);
+  }
+}

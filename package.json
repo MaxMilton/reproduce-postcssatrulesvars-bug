@@ -1,0 +1,22 @@
+{
+  "name": "reproduce-postcssatrulesvars-bug",
+  "version": "1.0.0",
+  "description": "Reproducible case for postcss-at-rules-variables-bug",
+  "main": "index.js",
+  "repository": "git@github.com:MaxMilton/reproduce-postcssatrulesvars-bug.git",
+  "author": "Max Milton <max@wearegenki.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "dependencies": {
+    "postcss": "6.0.16",
+    "postcss-at-rules-variables": "0.1.3",
+    "postcss-conditionals": "2.1.0"
+  },
+  "engines": {
+    "node": ">= 9.4.0",
+    "npm": ">= 5.5.1"
+  }
+}
