@@ -1,5 +1,7 @@
 # Reproducible Case For postcss-at-rules-variables Bug
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MaxMilton/reproduce-postcssatrulesvars-bug.svg)](https://greenkeeper.io/)
+
 ## Overview
 
 Minimal code to reproduce `postcss-at-rules-variables` bug: `TypeError: Cannot read property 'includes' of undefined`.
